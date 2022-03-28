@@ -136,6 +136,7 @@ $(".list-group").on("blur", "input[type='text']", function(){
   //replace input with span element
   $(this).replaceWith(taskSpan);
 });
+
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
   // clear values
